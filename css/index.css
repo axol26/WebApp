@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/WORKPLACEV9CMS/wr-vv_u_fekgnklqqtiauq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:#fff;
+    font-family:verdana;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    position:fixed;
+    overflow-y: auto;
+}
+
+form{
+    background-color:rgba(0, 0, 0, 0.5);
+    margin:0 4% 0 4%;
+    padding: 20px;
+    border-radius:5px 5px 0 0;
+}
+
+input, #insert{
+width:90%;
+margin: 10px 0 20px 0;
+height:2em;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.btn {
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 16px;
+    margin:2px 0px;
+    color: white;
+    border-radius: 8px;
+    border:none;
+}
+
+.btn:hover {
+    cursor:pointer;
+}
+
+.btn-update {
+    background-color: green;
+}
+
+.btn-calc {
+    background-color: darkblue;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.btn-link, .btn-comp {
+    background-color: gray;
+    font-size:16px;
+}
